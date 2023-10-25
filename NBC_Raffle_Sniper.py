@@ -211,7 +211,7 @@ def main_content():
                 for data in new_data:
                     # is_holder = "Yes" if data['is_holder'] else "No"
                     if data['is_holder'] != 0:
-                        st.markdown(f"<div style='text-align: center; margin-bottom: 30px; margin-top: 10px; white-space: nowrap;'>{data['is_holder']} Keys</div>", unsafe_allow_html=True)
+                        st.markdown(f"<div style='text-align: center; margin-bottom: 30px; margin-top: 10px; white-space: nowrap;'>{data['is_holder']}</div>", unsafe_allow_html=True)
                     else:
                         st.markdown(f"<div style='text-align: center; margin-bottom: 30px; margin-top: 10px; white-space: nowrap;  background-color: green; color: white;'> FREE </div>", unsafe_allow_html=True)
                     # st.text(data['token'])
