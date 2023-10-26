@@ -231,7 +231,7 @@ def main_content():
     """, unsafe_allow_html=True)
 
             
-            time.sleep(2)
+            time.sleep(10)
 
         # st.write("Produced by 0x0funky: ", "https://twitter.com/0x0funky ")
         # st.write("FT: ", "https://friend.tech/0x0funky")
@@ -253,7 +253,7 @@ st.markdown(f'<img src="{icon_url}" style="vertical-align:middle; display:inline
 # st.title("NewBitcoinCity Lucky Wheel Sniper")
 
 current_time = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
-st.write("Last updated:", current_time)
+st.write("Last updated (Auto update 10 Second):", current_time)
 
 st.markdown(f"""
     <div>
